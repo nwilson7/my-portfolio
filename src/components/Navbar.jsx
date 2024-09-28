@@ -1,12 +1,22 @@
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact me</li>
+    <nav className="sm:flex justify-center">
+      <ul className="flex space-x-4">
+        <li className="hover:underline">
+          <a href="#home">Home</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#about-me">About Me</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#skills">Skills</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#contact">Contact Me</a>
+        </li>
       </ul>
     </nav>
   );
