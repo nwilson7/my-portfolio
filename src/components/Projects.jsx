@@ -1,11 +1,5 @@
 function Projects() {
-  return (
-    <>
-      <ol>
-        <li></li>
-      </ol>
-    </>
-  );
+  return <h1>Projects section</h1>;
 }
 
 export default Projects;
