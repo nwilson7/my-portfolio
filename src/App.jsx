@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <h1>Skills section</h1>
       </section>
       <section id="projects" className="h-screen">
-        <h1>Projects section</h1>
+        <Projects />
       </section>
       <section id="contact" className="h-screen">
         <h1>Contact me section</h1>
